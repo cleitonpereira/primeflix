@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Favoritos from "./pages/Favoritos";
 import Home from "./pages/Home";
 import Filme from "./pages/Filme";
 import Error from "./pages/Error";
@@ -13,6 +14,7 @@ function RoutesApp() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/filme/:id" element={<Filme />} />
+        <Route path="/favoritos" element={<Favoritos />} />
 
         <Route path="*" element={<Error />} />
       </Routes>

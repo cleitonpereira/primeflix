@@ -11,7 +11,7 @@
   font-size: 18px;
 }
 .meus-filmes ul {
-  width: 720px;
+  width: 100%;
 }
 .meus-filmes ul li {
   list-style: none;
